@@ -19,7 +19,7 @@ def generate_invoice(customer_name, items):
         file.write(rendered_template)
 
 if __name__ == '__main__':
-    customer_name = "John Doe"
+    customer_name = "Alan Reji"
     items = [
         {"name": "Item 1", "quantity": 2, "price": 20.0},
         {"name": "Item 2", "quantity": 1, "price": 30.0},
